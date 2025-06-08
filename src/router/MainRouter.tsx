@@ -5,7 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import { RootStackParamList } from '@/types';
 import { DataProvider } from 'context/DataContext';
-import ToDo from 'screens/ToDo';
+import MainContent from 'screens/MainContent';
 import CategoryList from 'components/CategoryList';
 import CategorySetting from 'components/CategorySetting';
 import RouterStyles from '../css/RouterStyles';
@@ -39,10 +39,10 @@ const MainRouter = () => {
   return (
     <DataProvider>
 
-          <Stack.Navigator initialRouteName="ToDo">
+          <Stack.Navigator initialRouteName="MainContent">
             <Stack.Screen
-              name="ToDo"
-              component={ToDo}
+              name="MainContent"
+              component={MainContent}
               options={{ headerShown: false }}
             />
             <Stack.Screen

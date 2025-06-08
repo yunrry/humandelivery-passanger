@@ -31,7 +31,7 @@ const Root = ({ navigation }: RouterProps) => {
           headerShown: false,
         }}
        >
-        <Tab.Screen name="ToDo" component={MainStack} options={{}} />
+        <Tab.Screen name="MainContent" component={MainStack} options={{}} />
         <Tab.Screen name="목표" component={GoalsStack} />
         <Tab.Screen name="팜" component={FarmStack} options={{}} />
         <Tab.Screen name="마이페이지" component={MypageStack} options={{}} />

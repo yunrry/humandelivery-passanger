@@ -3,7 +3,7 @@ import {StyleSheet, Text, View, Image, ImageBackground} from "react-native";
 import { ScrollView } from "react-native-gesture-handler";
 import {SafeAreaView} from "react-native-safe-area-context";
 
-const ToDo: React.FC = () => {
+const MainContent: React.FC = () => {
   return (
 	<ScrollView>
     <SafeAreaView style={styles.mainContent}>
@@ -541,4 +541,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default ToDo;
+export default MainContent;
